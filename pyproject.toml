@@ -18,6 +18,11 @@ requires-python = ">=3.7"
 Repository = "https://github.com/lapets/univariate"
 
 [project.optional-dependencies]
+docs = [
+    "toml~=0.10.2",
+    "sphinx~=4.2.0",
+    "sphinx-rtd-theme~=1.0.0"
+]
 test = [
     "pytest~=7.0",
     "pytest-cov~=3.0"
@@ -40,4 +45,4 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--doctest-modules --ignore=docs --cov=univariate --cov-report term-missing
+addopts = "--doctest-modules --ignore=docs --cov=univariate --cov-report term-missing"
