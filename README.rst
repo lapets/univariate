@@ -4,7 +4,7 @@ univariate
 
 Data structure for representing secret shares of elements of finite sets and univariate functions thereof, designed for use within secure multi-party computation (MPC) protocol implementations.
 
-|pypi| |readthedocs|
+|pypi| |readthedocs| |actions| |coveralls|
 
 .. |pypi| image:: https://badge.fury.io/py/univariate.svg
    :target: https://badge.fury.io/py/univariate
@@ -13,6 +13,15 @@ Data structure for representing secret shares of elements of finite sets and uni
 .. |readthedocs| image:: https://readthedocs.org/projects/univariate/badge/?version=latest
    :target: https://univariate.readthedocs.io/en/latest/?badge=latest
    :alt: Read the Docs documentation status.
+
+.. |actions| image:: https://github.com/lapets/univariate/workflows/lint-test-cover-docs/badge.svg
+   :target: https://github.com/lapets/univariate/actions/workflows/lint-test-cover-docs.yml
+   :alt: GitHub Actions status.
+
+.. |coveralls| image:: https://coveralls.io/repos/github/lapets/univariate/badge.svg?branch=main
+   :target: https://coveralls.io/github/lapets/univariate?branch=main
+   :alt: Coveralls test coverage summary.
+
 
 Installation and Usage
 ----------------------
